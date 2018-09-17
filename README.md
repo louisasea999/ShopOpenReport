@@ -1,2 +1,1 @@
-# ShopOpenReport
-Support Shop Open Process
+Support Shop Open Process.
