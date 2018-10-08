@@ -1,832 +1,1085 @@
 [
     {
-        "m1":{
-            "name":"标题",
-            "hasNext":false,
-            "display":true,
-            "finished":false,
-            "id":"01",
-            "value":[
-                {
-                    "name":"客户",
-                    "display":true,
-                    "type":"select",
-                    "selectValue":[],
-                    "id":"0101"
-                },
-                {
-                    "name":"市场",
-                    "display":true,
-                    "type":"select",
-                    "selectValue":[],
-                    "id":"0102"
-                },
-                {
-                    "name":"新店代码",
-                    "display":true,
-                    "type":"text",
-                    "id":"0103"
-                },
-                {
-                    "name":"日期",
-                    "display":true,
-                    "type":"date",
-                    "id":"0104"
-                },
-                {
-                    "name":"客户",
-                    "display":true,
-                    "type":"select",
-                    "selectValue":[],
-                    "id":"0105"
-                }
-            ]
-        },
-        "m2":{
-            "name":"版本号",
-            "hasNext":false,
-            "display":true,
-            "finished":false,
-            "id":"02",
-            "value":[
-                {
-                    "name":"版本号",
-                    "display":true,
-                    "type":"text",
-                    "id":"0201"
-                }
-            ]
-        },
-        "m3":{
-            "name":"引言",
-            "hasNext":false,
-            "display":true,
-            "finished":false,
-            "id":"03",
-            "value":[
-                {
-                    "name":"引言",
-                    "display":true,
-                    "type":"textarea",
-                    "id":"0301"
-                }
-            ]
-        },
-        "m4":{
-            "name":"新店基础信息表",
-            "hasNext":false,
-            "display":true,
-            "finished":false,
-            "id":"04",
-            "value":[
-                {
-                    "name":"餐厅编号",
-                    "display":true,
-                    "type":"text",
-                    "id":"0401"
-                },
-                {
-                    "name":"餐厅名称",
-                    "display":true,
-                    "type":"text",
-                    "id":"0402"
-                },
-                {
-                    "name":"餐厅电话",
-                    "display":true,
-                    "type":"text",
-                    "id":"0403"
-                },
-                {
-                    "name":"品牌",
-                    "display":true,
-                    "type":"text",
-                    "id":"0404"
-                },
-                {
-                    "name":"开业日期",
-                    "display":true,
-                    "type":"text",
-                    "id":"0405"
-                },
-                {
-                    "name":"IT调试工程师",
-                    "display":true,
-                    "type":"text",
-                    "id":"0406"
-                },
-                {
-                    "name":"POS数量",
-                    "display":true,
-                    "type":"text",
-                    "id":"0407"
-                },
-                {
-                    "name":"票打数量",
-                    "display":true,
-                    "type":"text",
-                    "id":"0408"
-                },
-                {
-                    "name":"摄像头数量",
-                    "display":true,
-                    "type":"text",
-                    "id":"0409"
-                },
-                {
-                    "name":"宽带线路数",
-                    "display":true,
-                    "type":"text",
-                    "id":"0410"
-                },
-                {
-                    "name":"KDS数量",
-                    "display":true,
-                    "type":"text",
-                    "id":"0411"
-                },
-                {
-                    "name":"无线AP、移动NC",
-                    "display":true,
-                    "type":"text",
-                    "id":"0412"
-                },
-                {
-                    "name":"NC数量",
-                    "display":true,
-                    "type":"text",
-                    "id":"0413"
-                },
-                {
-                    "name":"DMB TV数",
-                    "display":true,
-                    "type":"text",
-                    "id":"0414"
-                },
-                {
-                    "name":"DMB NC",
-                    "display":true,
-                    "type":"text",
-                    "id":"0415"
-                },
-                {
-                    "name":"餐厅地址",
-                    "display":true,
-                    "type":"text",
-                    "id":"0416"
-                },
-                {
-                    "name":"宽带账号(Mail)",
-                    "display":true,
-                    "type":"text",
-                    "id":"0417"
-                },
-                {
-                    "name":"宽带密码(Mail)",
-                    "display":true,
-                    "type":"text",
-                    "id":"0418"
-                },
-                {
-                    "name":"宽带账号(Wi-Fi)",
-                    "display":true,
-                    "type":"text",
-                    "id":"0419"
-                },
-                {
-                    "name":"宽带密码(Wi-Fi)",
-                    "display":true,
-                    "type":"text",
-                    "id":"0420"
-                },
-                {
-                    "name":"宽带账号(DMB)",
-                    "display":true,
-                    "type":"text",
-                    "id":"0421"
-                },
-                {
-                    "name":"宽带密码(DMB)",
-                    "display":true,
-                    "type":"text",
-                    "id":"0422"
-                },
-                {
-                    "name":"宽带账号(外送)",
-                    "display":true,
-                    "type":"text",
-                    "id":"0423"
-                },
-                {
-                    "name":"宽带密码(外送)",
-                    "display":true,
-                    "type":"text",
-                    "id":"0424"
-                }
-            ]
-        },
-        "m5":{
-            "name":"有效安装时间统计表（小时）",
-            "hasNext":false,
-            "display":true,
-            "finished":false,
-            "id":"05",
-            "value":[
-                {
-                    "name":"餐厅",
-                    "display":true,
-                    "type":"text",
-                    "id":"0501"
-                },
-                {
-                    "name":"总时间",
-                    "display":true,
-                    "type":"text",
-                    "id":"0502"
-                },
-                {
-                    "name":"CCTV",
-                    "display":true,
-                    "type":"text",
-                    "id":"0503"
-                },
-                {
-                    "name":"POS",
-                    "display":true,
-                    "type":"text",
-                    "id":"0504"
-                },
-                {
-                    "name":"POS打印机",
-                    "display":true,
-                    "type":"text",
-                    "id":"0505"
-                },
-                {
-                    "name":"PC/Server",
-                    "display":true,
-                    "type":"text",
-                    "id":"0506"
-                },
-                {
-                    "name":"NC",
-                    "display":true,
-                    "type":"text",
-                    "id":"0507"
-                },
-                {
-                    "name":"Soft",
-                    "display":true,
-                    "type":"text",
-                    "id":"0508"
-                },
-                {
-                    "name":"UPS",
-                    "display":true,
-                    "type":"text",
-                    "id":"0509"
-                },
-                {
-                    "name":"Other",
-                    "display":true,
-                    "type":"text",
-                    "id":"0510"
-                }
-            ]
-        },
-        "m6":{
-            "name":"验收单据（安装单据，Standby单据）",
-            "hasNext":false,
-            "display":true,
-            "finished":false,
-            "id":"06",
-            "value":[
-                {
-                    "name":"安装单据",
-                    "display":true,
-                    "type":"file",
-                    "id":"0601"
-                },
-                {
-                    "name":"Standby单据",
-                    "display":true,
-                    "type":"file",
-                    "id":"0602"
-                }
-            ]
-        },
-        "m7":{
-            "name":"验收单据（安装单据，Standby单据）",
-            "hasNext":false,
-            "display":true,
-            "finished":false,
-            "id":"07",
-            "value":[
-                {
-                    "name":"交接表（Vendor、营建、营运）",
-                    "display":true,
-                    "type":"file",
-                    "id":"0701"
-                }
-            ]
-        },
-        "m8":{
-            "name":"硬件资产收集",
-            "hasNext":false,
-            "display":true,
-            "finished":false,
-            "id":"08",
-            "value":[
-                {
-                    "name":"硬件资产收集",
-                    "display":true,
-                    "type":"file",
-                    "id":"0801"
-                }
-            ]
-        },
-        "m9":{
-            "name":"新店现场照片",
-            "hasNext":true,
-            "display":true,
-            "finished":false,
-            "id":"09",
-            "sm":[
-                {
-                    "name":"经理室机柜走线及布局",
-                    "hasNext":false,
-                    "display":true,
-                    "id":"0901",
-                    "value":[
-                        {
-                            "name":"机柜安装前线路整理、捆扎照片",
-                            "display":true,
-                            "type":"file",
-                            "id":"090101"
-                        },
-                        {
-                            "name":"机柜进出线",
-                            "display":true,
-                            "type":"file",
-                            "id":"090102"
-                        },
-                        {
-                            "name":"机柜安装前线路整理、捆扎照片",
-                            "display":true,
-                            "type":"file",
-                            "id":"090103"
-                        },
-                        {
-                            "name":"机柜设备安装后开门照（要拍到每层设备放置位置及走线，请确保设备放置在对应的层）",
-                            "display":true,
-                            "type":"file",
-                            "id":"090104"
-                        },
-                        {
-                            "name":"交换机、防火墙、宽带猫特写",
-                            "display":true,
-                            "type":"file",
-                            "id":"090105"
-                        },
-                        {
-                            "name":"CCTV主机特写照（要正面拍到设备安装位置和走线；背面拍到视频线连接在视频卡上的情况）",
-                            "display":true,
-                            "type":"file",
-                            "id":"090106"
-                        },
-                        {
-                            "name":"机柜关门照 (关闭机柜门，锁好门，照片看到外部环境和线路走入情况",
-                            "display":true,
-                            "type":"file",
-                            "id":"090107"
-                        }
-                    ]
-                },
-                {
-                    "name":"经理室",
-                    "hasNext":false,
-                    "display":true,
-                    "id":"0902",
-                    "value":[
-                        {
-                            "name":"NC侧面照",
-                            "display":true,
-                            "type":"file",
-                            "id":"090201"
-                        },
-                        {
-                            "name":"后台打印机",
-                            "display":true,
-                            "type":"file",
-                            "id":"090202"
-                        },
-                        {
-                            "name":"无线AP",
-                            "display":true,
-                            "type":"file",
-                            "id":"090203"
-                        },
-                        {
-                            "name":"移动NC",
-                            "display":true,
-                            "type":"file",
-                            "id":"090204"
-                        },
-                        {
-                            "name":"卡钟整体照",
-                            "display":true,
-                            "type":"file",
-                            "id":"090205"
-                        }
-                    ]
-                },
-                {
-                    "name":"收银系统",
-                    "hasNext":true,
-                    "display":true,
-                    "id":"0903",
-                    "sm":[
-                        {
-                            "name":"柜台",
-                            "hasNext":false,
-                            "display":true,
-                            "id":"090301",
-                            "value":[
-                                {
-                                    "name":"POS客区照",
-                                    "display":true,
-                                    "type":"file",
-                                    "id":"09030101"
-                                },
-                                {
-                                    "name":"POS员工区照",
-                                    "display":true,
-                                    "type":"file",
-                                    "id":"09030102"
-                                },
-                                {
-                                    "name":"单台POS整体照（其中一台收银抽屉内拿掉钱箱两侧的杂物，拍到模块、电源（需有线插在上面）、线槽）",
-                                    "display":true,
-                                    "type":"file",
-                                    "id":"09030103"
-                                },
-                                {
-                                    "name":"票打整体照(每台票据打印机。拍走线情况、电源插座电源连接情况。尽量拍全景，由地面到柜面)",
-                                    "display":true,
-                                    "type":"file",
-                                    "id":"09030104"
-                                },
-                                {
-                                    "name":"POS抽屉、线路、模块",
-                                    "display":true,
-                                    "type":"file",
-                                    "id":"09030105"
-                                }
-                            ]
-                        },
-                        {
-                            "name":"点配分离：厨房版本号（请选择模式）柜台",
-                            "hasNext":false,
-                            "display":true,
-                            "id":"090302",
-                            "value":[
-                                {
-                                    "name":"KDS正面照，要拍到显示屏幕的正确显示、键盘和键盘托架-配餐屏",
-                                    "display":true,
-                                    "type":"file",
-                                    "id":"09030201"
-                                },
-                                {
-                                    "name":"KDS侧面照，要拍到走线情况和支架安装情况-配餐屏",
-                                    "display":true,
-                                    "type":"file",
-                                    "id":"09030202"
-                                },
-                                {
-                                    "name":"KDS正面照，要拍到显示屏幕的正确显示、键盘和键盘托架-汉堡屏",
-                                    "display":true,
-                                    "type":"file",
-                                    "id":"09030203"
-                                },
-                                {
-                                    "name":"KDS侧面照，要拍到走线情况和支架安装情况-汉堡屏",
-                                    "display":true,
-                                    "type":"file",
-                                    "id":"09030204"
-                                },
-                                {
-                                    "name":"KDS正面照，要拍到显示屏幕的正确显示、键盘和键盘托架-饮料屏",
-                                    "display":true,
-                                    "type":"file",
-                                    "id":"09030205"
-                                },
-                                {
-                                    "name":"KDS侧面照，要拍到走线情况和支架安装情况-饮料屏",
-                                    "display":true,
-                                    "type":"file",
-                                    "id":"09030206"
-                                }                               
-                            ]
-                        },
-                        {
-                            "name":"取餐屏",
-                            "hasNext":false,
-                            "display":true,
-                            "id":"090303",
-                            "value":[
-                                {
-                                    "name":"取餐屏",
-                                    "display":true,
-                                    "type":"file",
-                                    "id":"09030301"
-                                }
-                            ]
-                        },
-                        {
-                            "name":"2GBOH厨房标准图及参数描述",
-                            "hasNext":false,
-                            "display":true,
-                            "id":"090304",
-                            "value":[
-                                {
-                                    "name":"LINUX虚机",
-                                    "display":true,
-                                    "type":"file",
-                                    "id":"09030401"
-                                },
-                                {
-                                    "name":"虚机网络配置截图",
-                                    "display":true,
-                                    "type":"file",
-                                    "id":"09030402"
-                                },
-                                {
-                                    "name":"厨房设备全景图（配电箱，NC主机、显示屏、小票打印机正面照片）",
-                                    "display":true,
-                                    "type":"file",
-                                    "id":"09030403"
-                                },
-                                {
-                                    "name":"总配：打印机定位原则",
-                                    "display":true,
-                                    "type":"file",
-                                    "id":"09030404"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name":"周边收银系统",
-                    "hasNext":true,
-                    "display":true,
-                    "id":"0904",
-                    "sm":[
-                        {
-                            "name":"外送：外送POS整体照(由地面到外送台柜顶，拍到POS走线及票打走线及放置位置)",
-                            "hasNext":false,
-                            "display":true,
-                            "id":"090401",
-                            "value":[
-                                {
-                                    "name":"外送：外送POS整体照(由地面到外送台柜顶，拍到POS走线及票打走线及放置位置)",
-                                    "display":true,
-                                    "type":"file",
-                                    "id":"09040101"
-                                }
-                            ]
-                        },
-                        {
-                            "name":"甜品站",
-                            "hasNext":false,
-                            "display":true,
-                            "id":"090402",
-                            "value":[
-                                {
-                                    "name":"单台POS整体照（其中一台收银抽屉内拿掉钱箱两侧的杂物，拍到模块、电源（需有线插在上面）、线槽）",
-                                    "display":true,
-                                    "type":"file",
-                                    "id":"09040201"
-                                },
-                                {
-                                    "name":"票打整体照(每台票据打印机。拍走线情况、电源插座电源连接情况。尽量拍全景，由地面到柜面)",
-                                    "display":true,
-                                    "type":"file",
-                                    "id":"09040202"
-                                },
-                                {
-                                    "name":"POS抽屉、线路、模块",
-                                    "display":true,
-                                    "type":"file",
-                                    "id":"09040203"
-                                }                            
-                            ]
-                        },
-                        {
-                            "name":"外卖点（含子店）",
-                            "hasNext":false,
-                            "display":true,
-                            "id":"090403",
-                            "value":[
-                                {
-                                    "name":"单台POS整体照（其中一台收银抽屉内拿掉钱箱两侧的杂物，拍到模块、电源（需有线插在上面）、线槽）",
-                                    "display":true,
-                                    "type":"file",
-                                    "id":"09040301"
-                                },
-                                {
-                                    "name":"票打整体照(每台票据打印机。拍走线情况、电源插座电源连接情况。尽量拍全景，由地面到柜面)",
-                                    "display":true,
-                                    "type":"file",
-                                    "id":"09040302"
-                                },
-                                {
-                                    "name":"POS抽屉、线路、模块",
-                                    "display":true,
-                                    "type":"file",
-                                    "id":"09040303"
-                                }                            
-                            ]
-                        },
-                        {
-                            "name":"车道POS机",
-                            "hasNext":false,
-                            "display":true,
-                            "id":"090404",
-                            "value":[
-                                {
-                                    "name":"单台POS整体照（其中一台收银抽屉内拿掉钱箱两侧的杂物，拍到模块、电源（需有线插在上面）、线槽）",
-                                    "display":true,
-                                    "type":"file",
-                                    "id":"09040401"
-                                },
-                                {
-                                    "name":"票打整体照(每台票据打印机。拍走线情况、电源插座电源连接情况。尽量拍全景，由地面到柜面)",
-                                    "display":true,
-                                    "type":"file",
-                                    "id":"09040402"
-                                },
-                                {
-                                    "name":"POS抽屉、线路、模块",
-                                    "display":true,
-                                    "type":"file",
-                                    "id":"09040403"
-                                }                            
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name":"DMB电子餐牌设置",
-                    "hasNext":false,
-                    "display":true,
-                    "id":"0905",
-                    "value":[
-                        {
-                            "name":"DMB 瘦客户主机摆放要合理，理线规整清晰。（主机从右至左依次为1,2,3）",
-                            "display":true,
-                            "type":"file",
-                            "id":"090501"
-                        },
-                        {
-                            "name":"DMB全部屏显播放正常的照片（从左至右依次为1,2,3,4,5,6）",
-                            "display":true,
-                            "type":"file",
-                            "id":"090502"
-                        },
-                        {
-                            "name":"DMB标签（从左至右依次为1,2,3,4,5,6）",
-                            "display":true,
-                            "type":"file",
-                            "id":"090503"
-                        }    
-                    ]
-                },
-                {
-                    "name":"CCTV监控",
-                    "hasNext":false,
-                    "display":true,
-                    "id":"0906",
-                    "value":[
-                        {
-                            "name":"CCTV监控画面（Web访问截图）",
-                            "display":true,
-                            "type":"file",
-                            "id":"090601"
-                        }
-                    ]
-                },
-                {
-                    "name":"其他（SDCD、TVBOX、UPS）",
-                    "hasNext":false,
-                    "display":true,
-                    "id":"0907",
-                    "value":[
-                        {
-                            "name":"SDCD",
-                            "display":true,
-                            "type":"file",
-                            "id":"090701"
-                        },
-                        {
-                            "name":"TVBOX",
-                            "display":true,
-                            "type":"file",
-                            "id":"090702"
-                        },
-                        {
-                            "name":"UPS：UPS正面照 (要拍到UPS主机、电池柜及前面板状态灯显示)",
-                            "display":true,
-                            "type":"file",
-                            "id":"090703"
-                        }    
-                    ]
-                }
-            ]
-        },
-        "m10":{
-            "name":"新店功能性验收",
-            "hasNext":false,
-            "display":true,
-            "finished":false,
-            "id":"10",
-            "value":[
-                {
-                    "name":"每台POS的Ready打印单，收银机与打印机工作正常（适用于客户/客户/ED）",
-                    "display":true,
-                    "type":"file",
-                    "id":"1001"
-                },
-                {
-                    "name":" Compris数据清零后，打印Sales Report【前日总结=0】(适用于客户/客户/ED)",
-                    "display":true,
-                    "type":"file",
-                    "id":"1002"
-                },
-                {
-                    "name":"打印测试发票(适用于全品牌上发票打印系统的门店，不能使用正式发票)",
-                    "display":true,
-                    "type":"file",
-                    "id":"1003"
-                },
-                {
-                    "name":"打印外送测试单(适用于客户开通外送的门店)",
-                    "display":true,
-                    "type":"file",
-                    "id":"1004"
-                },
-                {
-                    "name":"餐条显示正确的门店编号、门店中文地址、门店电话",
-                    "display":true,
-                    "type":"file",
-                    "id":"1005"
-                }
-            ]
-        },
-        "m11":{
-            "name":"新店安装过程问题汇总",
-            "hasNext":false,
-            "display":true,
-            "finished":false,
-            "id":"11",
-            "value":[
-                {
-                    "name":"门店代码",
-                    "display":true,
-                    "type":"text",
-                    "id":"1101"
-                },
-                {
-                    "name":"营建方面问题(如电源不是国标，CCTV飞线，没有UPS标识，无插座、模块等)(请具体描述)",
-                    "display":true,
-                    "type":"textarea",
-                    "id":"1102"
-                },
-                {
-                    "name":"门店方面问题(请具体描述)",
-                    "display":true,
-                    "type":"textarea",
-                    "id":"1103"
-                },
-                {
-                    "name":"设备方面问题（如设备DOA，或变形不影响使用，或未到齐等）(请具体描述)",
-                    "display":true,
-                    "type":"textarea",
-                    "id":"1104"
-                },
-                {
-                    "name":"线路方面问题(如ADSL未开通)(请具体描述)",
-                    "display":true,
-                    "type":"textarea",
-                    "id":"1105"
-                },
-                {
-                    "name":"工程师现场未完成/无法完成/等待时间超过2小时等事宜&建议 (请具体描述)",
-                    "display":true,
-                    "type":"textarea",
-                    "id":"1106"
-                }                
-            ]
-        }
+        "id": "01",
+        "name": "title",
+        "displayName": "标题",
+        "display": true,
+        "type": "text",
+        "children": [
+            {
+                "id": "0101",
+                "name": "customer",
+                "displayName": "客户",
+                "display": true,
+                "type": "select"
+            },
+            {
+                "id": "0102",
+                "name": "market",
+                "displayName": "市场",
+                "display": true,
+                "type": "select"
+            },
+            {
+                "id": "0103",
+                "name": "code",
+                "displayName": "新店代码",
+                "display": true,
+                "type": "text"
+            },
+            {
+                "id": "0104",
+                "name": "date",
+                "displayName": "日期",
+                "display": true,
+                "type": "date"
+            },
+            {
+                "id": "0105",
+                "name": "report",
+                "displayName": "新店报告",
+                "display": true,
+                "type": "select"
+            }
+        ]
+    },
+    {
+        "id": "02",
+        "name": "version NO",
+        "displayName": "版本号",
+        "display": true,
+        "type": "text",
+        "children": [
+            {
+                "id": "0201",
+                "name": "version NO",
+                "displayName": "版本号",
+                "display": true,
+                "type": "text"
+            }
+        ]
+    },
+    {
+        "id": "03",
+        "name": "introduction",
+        "displayName": "引言",
+        "display": true,
+        "type": "text",
+        "children": [
+            {
+                "id": "0301",
+                "name": "introduction",
+                "displayName": "引言",
+                "display": true,
+                "type": "text"
+            }
+        ]
+    },
+    {
+        "id": "04",
+        "name": "basic information",
+        "displayName": "新店基础信息表",
+        "display": true,
+        "type": "text",
+        "children": [
+            {
+                "id": "0401",
+                "name": "restaurant NO",
+                "displayName": "餐厅编号",
+                "display": true,
+                "type": "text"
+            },
+            {
+                "id": "0402",
+                "name": "restaurant name",
+                "displayName": "餐厅名称",
+                "display": true,
+                "type": "text"
+            },
+            {
+                "id": "0403",
+                "name": "restaurant phone",
+                "displayName": "餐厅电话",
+                "display": true,
+                "type": "text"
+            },
+            {
+                "id": "0404",
+                "name": "brand",
+                "displayName": "品牌",
+                "display": true,
+                "type": "select"
+            },
+            {
+                "id": "0405",
+                "name": "open date",
+                "displayName": "开业日期",
+                "display": true,
+                "type": "date"
+            },
+            {
+                "id": "0406",
+                "name": "IT engineer",
+                "displayName": "IT调试工程师品牌",
+                "display": true,
+                "type": "text"
+            },
+            {
+                "id": "0407",
+                "name": "POS",
+                "displayName": "POS数量",
+                "display": true,
+                "type": "text"
+            },
+            {
+                "id": "0408",
+                "name": "ticket number",
+                "displayName": "票打数量",
+                "display": true,
+                "type": "text"
+            },
+            {
+                "id": "0409",
+                "name": "camera number",
+                "displayName": "摄像头数量",
+                "display": true,
+                "type": "text"
+            },
+            {
+                "id": "0410",
+                "name": "broadband number",
+                "displayName": "宽带线路数",
+                "display": true,
+                "type": "text"
+            },
+            {
+                "id": "0411",
+                "name": "KDS number",
+                "displayName": "KDS数量",
+                "display": true,
+                "type": "text"
+            },
+            {
+                "id": "0412",
+                "name": "AP NC",
+                "displayName": "无线AP、移动NC",
+                "display": true,
+                "type": "text"
+            },
+            {
+                "id": "0413",
+                "name": "NC number",
+                "displayName": "NC数量",
+                "display": true,
+                "type": "text"
+            },
+            {
+                "id": "0414",
+                "name": "DMB TV",
+                "displayName": "DMB TV数",
+                "display": true,
+                "type": "text"
+            },
+            {
+                "id": "0415",
+                "name": "DMB NC",
+                "displayName": "DMB NC",
+                "display": true,
+                "type": "text"
+            },
+            {
+                "id": "0416",
+                "name": "restaurant address",
+                "displayName": "餐厅地址",
+                "display": true,
+                "type": "text"
+            },
+            {
+                "id": "0417",
+                "name": "broadband account",
+                "displayName": "宽带账号(Mail)",
+                "display": true,
+                "type": "text"
+            },
+            {
+                "id": "0418",
+                "name": "broadband password",
+                "displayName": "宽带密码(Mail)",
+                "display": true,
+                "type": "text"
+            },
+            {
+                "id": "0419",
+                "name": "wifi account",
+                "displayName": "宽带账号(Wi-Fi)",
+                "display": true,
+                "type": "text"
+            },
+            {
+                "id": "0420",
+                "name": "wifi password",
+                "displayName": "宽带密码(Wi-Fi)",
+                "display": true,
+                "type": "text"
+            },
+            {
+                "id": "0421",
+                "name": "DMB account",
+                "displayName": "宽带账号(DMB)",
+                "display": true,
+                "type": "text"
+            },
+            {
+                "id": "0422",
+                "name": "DMB password",
+                "displayName": "宽带密码(DMB)",
+                "display": true,
+                "type": "text"
+            },
+            {
+                "id": "0423",
+                "name": "delivery account",
+                "displayName": "宽带账号(外送)",
+                "display": true,
+                "type": "text"
+            },
+            {
+                "id": "0424",
+                "name": "delivery password",
+                "displayName": "宽带密码(外送)",
+                "display": true,
+                "type": "text"
+            }
+        ]
+    },
+    {
+        "id": "05",
+        "name": "effective install time",
+        "displayName": "有效安装时间统计表（小时）",
+        "display": true,
+        "type": "text",
+        "children": [
+            {
+                "id": "0501",
+                "name": "restaurant",
+                "displayName": "餐厅",
+                "display": true,
+                "type": "text"
+            },
+            {
+                "id": "0502",
+                "name": "total time",
+                "displayName": "总时间",
+                "display": true,
+                "type": "text"
+            },
+            {
+                "id": "0503",
+                "name": "CCTV",
+                "displayName": "CCTV",
+                "display": true,
+                "type": "text"
+            },
+            {
+                "id": "0504",
+                "name": "POS",
+                "displayName": "POS",
+                "display": true,
+                "type": "text"
+            },
+            {
+                "id": "0505",
+                "name": "POS printer",
+                "displayName": "POS打印机",
+                "display": true,
+                "type": "text"
+            },
+            {
+                "id": "0506",
+                "name": "PC/Server",
+                "displayName": "PC/Server",
+                "display": true,
+                "type": "text"
+            },
+            {
+                "id": "0507",
+                "name": "NC",
+                "displayName": "NC",
+                "display": true,
+                "type": "text"
+            },
+            {
+                "id": "0508",
+                "name": "Soft",
+                "displayName": "Soft",
+                "display": true,
+                "type": "text"
+            },
+            {
+                "id": "0509",
+                "name": "UPS",
+                "displayName": "UPS",
+                "display": true,
+                "type": "text"
+            },
+            {
+                "id": "0510",
+                "name": "Other",
+                "displayName": "Other",
+                "display": true,
+                "type": "text"
+            }
+        ]
+    },
+    {
+        "id": "06",
+        "name": "accept bill",
+        "displayName": "验收单据（安装单据，Standby单据）",
+        "display": true,
+        "type": "text",
+        "children": [
+            {
+                "id": "0601",
+                "name": "install bill",
+                "displayName": "安装单据",
+                "display": true,
+                "type": "file"
+            },
+            {
+                "id": "0602",
+                "name": "standby bill",
+                "displayName": "Standby单据",
+                "display": true,
+                "type": "file"
+            }
+        ]
+    },
+    {
+        "id": "07",
+        "name": "vender",
+        "displayName": "交接表（Vendor、营建、营运）",
+        "display": true,
+        "type": "text",
+        "children": [
+            {
+                "id": "0701",
+                "name": "vender",
+                "displayName": "交接表（Vendor、营建、营运）",
+                "display": true,
+                "type": "file"
+            }
+        ]
+    },
+    {
+        "id": "08",
+        "name": "hardware",
+        "displayName": "硬件资产收集",
+        "display": true,
+        "type": "text",
+        "value": [
+            {
+                "id": "0801",
+                "name": "hardware",
+                "displayName": "硬件资产收集",
+                "display": true,
+                "type": "file"
+            }
+        ]
+    },
+    {
+        "id": "09",
+        "name": "shop photos",
+        "displayName": "新店现场照片",
+        "display": true,
+        "type": "text",
+        "children": [
+            {
+                "id": "0901",
+                "name": "layout",
+                "displayName": "经理室机柜走线及布局",
+                "display": true,
+                "type": "text",
+                "children": [
+                    {
+                        "id": "090101",
+                        "name": "before install",
+                        "displayName": "机柜安装前线路整理、捆扎照片",
+                        "display": true,
+                        "type": "text"
+                    },
+                    {
+                        "id": "090102",
+                        "name": "cable",
+                        "displayName": "机柜进出线",
+                        "display": true,
+                        "type": "file"
+                    },
+                    {
+                        "id": "090103",
+                        "name": "before install",
+                        "displayName": "机柜安装前线路整理、捆扎照片",
+                        "display": true,
+                        "type": "file"
+                    },
+                    {
+                        "id": "090104",
+                        "name": "open shop photo",
+                        "displayName": "机柜设备安装后开门照",
+                        "display": true,
+                        "type": "file"
+                    },
+                    {
+                        "id": "090105",
+                        "name": "firewall close up",
+                        "displayName": "交换机、防火墙、宽带猫特写",
+                        "display": true,
+                        "type": "file"
+                    },
+                    {
+                        "id": "090106",
+                        "name": "CCTV close up",
+                        "displayName": "CCTV主机特写照",
+                        "display": true,
+                        "type": "file"
+                    },
+                    {
+                        "id": "090107",
+                        "name": "close shop photo",
+                        "displayName": "机柜关门照",
+                        "display": true,
+                        "type": "file"
+                    }
+                ]
+            },
+            {
+                "id": "0902",
+                "name": "manager offcie",
+                "displayName": "经理室",
+                "display": true,
+                "type": "text",
+                "children": [
+                    {
+                        "id": "090201",
+                        "name": "NC photo",
+                        "displayName": "NC侧面照",
+                        "display": true,
+                        "type": "file"
+                    },
+                    {
+                        "id": "090202",
+                        "name": "behind printer",
+                        "displayName": "后台打印机",
+                        "display": true,
+                        "type": "file"
+                    },
+                    {
+                        "id": "090203",
+                        "name": "wireless AP",
+                        "displayName": "无线AP",
+                        "display": true,
+                        "type": "file"
+                    },
+                    {
+                        "id": "090204",
+                        "name": "mobile NC",
+                        "displayName": "移动NC",
+                        "display": true,
+                        "type": "file"
+                    },
+                    {
+                        "id": "090205",
+                        "name": "clock photo",
+                        "displayName": "卡钟整体照",
+                        "display": true,
+                        "type": "file"
+                    }
+                ]
+            },
+            {
+                "id": "0903",
+                "name": "cashier system",
+                "displayName": "收银系统",
+                "display": true,
+                "type": "text",
+                "children": [
+                    {
+                        "id": "090301",
+                        "name": "counter",
+                        "displayName": "柜台",
+                        "display": true,
+                        "type": "text",
+                        "children": [
+                            {
+                                "id": "09030101",
+                                "name": "POS customer",
+                                "displayName": "POS客区照",
+                                "display": true,
+                                "type": "file"
+                            },
+                            {
+                                "id": "09030102",
+                                "name": "POS employee",
+                                "displayName": "POS员工区照",
+                                "display": true,
+                                "type": "file"
+                            },
+                            {
+                                "id": "09030103",
+                                "name": "single POS",
+                                "displayName": "单台POS整体照",
+                                "display": true,
+                                "type": "file"
+                            },
+                            {
+                                "id": "09030104",
+                                "name": "bill printer",
+                                "displayName": "票打整体照",
+                                "display": true,
+                                "type": "file"
+                            },
+                            {
+                                "id": "09030105",
+                                "name": "POS Drawer",
+                                "displayName": "POS抽屉、线路、模块",
+                                "display": true,
+                                "type": "file"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "090302",
+                        "name": "Point distribution separation",
+                        "displayName": "点配分离：厨房版本号（请选择模式）柜台",
+                        "display": true,
+                        "type": "text",
+                        "children": [
+                            {
+                                "id": "09030201",
+                                "name": "KDS positive food",
+                                "displayName": "KDS正面照-配餐屏",
+                                "display": true,
+                                "type": "file"
+                            },
+                            {
+                                "id": "09030202",
+                                "name": "KDS side food",
+                                "displayName": "KDS侧面照-配餐屏",
+                                "display": true,
+                                "type": "file"
+                            },
+                            {
+                                "id": "09030203",
+                                "name": "KDS positive hamburger",
+                                "displayName": "KDS正面照-汉堡屏",
+                                "display": true,
+                                "type": "file"
+                            },
+                            {
+                                "id": "09030204",
+                                "name": "KDS side hamburger",
+                                "displayName": "KDS侧面照-汉堡屏",
+                                "display": true,
+                                "type": "file"
+                            },
+                            {
+                                "id": "09030205",
+                                "name": "KDS positive drink",
+                                "displayName": "KDS正面照-饮料屏",
+                                "display": true,
+                                "type": "file"
+                            },
+                            {
+                                "id": "09030206",
+                                "name": "KDS side drink",
+                                "displayName": "KDS侧面照-饮料屏",
+                                "display": true,
+                                "type": "file"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "090303",
+                        "name": "Dinning screen",
+                        "displayName": "取餐屏",
+                        "display": true,
+                        "type": "text",
+                        "children": [
+                            {
+                                "id": "09030301",
+                                "name": "Dinning screen",
+                                "displayName": "取餐屏",
+                                "display": true,
+                                "type": "file"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "090304",
+                        "name": "2GBOH kitchen",
+                        "displayName": "2GBOH厨房标准图及参数描述",
+                        "display": true,
+                        "type": "text",
+                        "children": [
+                            {
+                                "id": "09030401",
+                                "name": "linux virtual matchine",
+                                "displayName": "2GBOH厨房标准图及参数描述",
+                                "display": true,
+                                "type": "file"
+                            },
+                            {
+                                "id": "09030402",
+                                "name": "virtual matchine configuration",
+                                "displayName": "虚机网络配置截图",
+                                "display": true,
+                                "type": "file"
+                            },
+                            {
+                                "id": "09030403",
+                                "name": "kitchen panorama",
+                                "displayName": "厨房设备全景图",
+                                "display": true,
+                                "type": "file"
+                            },
+                            {
+                                "id": "09030404",
+                                "name": "print principle",
+                                "displayName": "总配：打印机定位原则",
+                                "display": true,
+                                "type": "file"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "0904",
+                "name": "cashier system around",
+                "displayName": "周边收银系统",
+                "display": true,
+                "type": "text",
+                "chilren": [
+                    {
+                        "id": "090401",
+                        "name": "take out POS",
+                        "displayName": "外送：外送POS整体照",
+                        "display": true,
+                        "type": "text",
+                        "children": [
+                            {
+                                "id": "09040101",
+                                "name": "take out POS",
+                                "displayName": "外送：外送POS整体照",
+                                "display": true,
+                                "type": "file"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "090402",
+                        "name": "dessert",
+                        "displayName": "甜品站",
+                        "display": true,
+                        "type": "text",
+                        "children": [
+                            {
+                                "id": "09040201",
+                                "name": "single POS",
+                                "displayName": "单台POS整体照",
+                                "display": true,
+                                "type": "file"
+                            },
+                            {
+                                "id": "09040202",
+                                "name": "invoice printer",
+                                "displayName": "票打整体照",
+                                "display": true,
+                                "type": "file"
+                            },
+                            {
+                                "id": "09040203",
+                                "name": "POS Drawer",
+                                "displayName": "POS抽屉、线路、模块",
+                                "display": true,
+                                "type": "file"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "090403",
+                        "name": "take out good",
+                        "displayName": "外卖点",
+                        "display": true,
+                        "type": "text",
+                        "children": [
+                            {
+                                "id": "09040301",
+                                "name": "single POS",
+                                "displayName": "单台POS整体照",
+                                "display": true,
+                                "type": "file"
+                            },
+                            {
+                                "id": "09040302",
+                                "name": "invoice printer",
+                                "displayName": "票打整体照",
+                                "display": true,
+                                "type": "file"
+                            },
+                            {
+                                "id": "09040303",
+                                "name": "POS Drawer",
+                                "displayName": "POS抽屉、线路、模块",
+                                "display": true,
+                                "type": "file"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "090404",
+                        "name": "driveway POS",
+                        "displayName": "车道POS机",
+                        "display": true,
+                        "type": "text",
+                        "value": [
+                            {
+                                "id": "09040401",
+                                "name": "single POS",
+                                "displayName": "单台POS整体照",
+                                "display": true,
+                                "type": "file"
+                            },
+                            {
+                                "id": "09040402",
+                                "name": "invoice printer",
+                                "displayName": "票打整体照",
+                                "display": true,
+                                "type": "file"
+                            },
+                            {
+                                "id": "09040403",
+                                "name": "POS Drawer",
+                                "displayName": "POS抽屉、线路、模块",
+                                "display": true,
+                                "type": "file"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "0905",
+                "name": "DMB electronic card",
+                "displayName": "DMB电子餐牌设置",
+                "display": true,
+                "type": "text",
+                "children": [
+                    {
+                        "id": "090501",
+                        "name": "DMB customer matchine",
+                        "displayName": "DMB 瘦客户主机摆放要合理，理线规整清晰",
+                        "display": true,
+                        "type": "file"
+                    },
+                    {
+                        "id": "090502",
+                        "name": "DMB screens",
+                        "displayName": "DMB全部屏显播放正常的照片",
+                        "display": true,
+                        "type": "file"
+                    },
+                    {
+                        "id": "090503",
+                        "name": "DMB tags",
+                        "displayName": "DMB标签",
+                        "display": true,
+                        "type": "file"
+                    }
+                ]
+            },
+            {
+                "id": "0906",
+                "name": "CCTV monitor",
+                "displayName": "CCTV监控",
+                "display": true,
+                "type": "text",
+                "children": [
+                    {
+                        "id": "090601",
+                        "name": "CCTV monitor frame",
+                        "displayName": "CCTV监控画面",
+                        "display": true,
+                        "type": "file"
+                    }
+                ]
+            },
+            {
+                "id": "0907",
+                "name": "others",
+                "displayName": "其他",
+                "display": true,
+                "type": "text",
+                "value": [
+                    {
+                        "id": "090701",
+                        "name": "SDCD",
+                        "displayName": "SDCD",
+                        "display": true,
+                        "type": "file"
+                    },
+                    {
+                        "id": "090702",
+                        "name": "TVBOX",
+                        "displayName": "TVBOX",
+                        "display": true,
+                        "type": "file"
+                    },
+                    {
+                        "id": "090703",
+                        "name": "UPS Posiive",
+                        "displayName": "UPS：UPS正面照",
+                        "display": true,
+                        "type": "file"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "10",
+        "name": "functional acceptance",
+        "displayName": "新店功能性验收",
+        "display": true,
+        "type": "text",
+        "children": [
+            {
+                "id": "1001",
+                "name": "POS cashier printer",
+                "displayName": "每台POS的Ready打印单，收银机与打印机工作正常",
+                "display": true,
+                "type": "file"
+            },
+            {
+                "id": "1002",
+                "name": "sales report",
+                "displayName": "Compris数据清零后，打印Sales Report",
+                "display": true,
+                "type": "file"
+            },
+            {
+                "id": "1003",
+                "name": "print test invoice",
+                "displayName": "打印测试发票",
+                "display": true,
+                "type": "file"
+            },
+            {
+                "id": "1004",
+                "name": "print outgping test",
+                "displayName": "打印外送测试单",
+                "display": true,
+                "type": "file"
+            },
+            {
+                "id": "1005",
+                "name": "shop number address telephone",
+                "displayName": "餐条显示正确的门店编号、门店中文地址、门店电话",
+                "display": true,
+                "type": "file"
+            }
+        ]
+    },
+    {
+        "id": "11",
+        "name": "questions",
+        "displayName": "新店安装过程问题汇总",
+        "display": true,
+        "type": "text",
+        "children": [
+            {
+                "id": "1101",
+                "name": "shop number",
+                "displayName": "门店代码",
+                "display": true,
+                "type": "file"
+            },
+            {
+                "id": "1102",
+                "name": "construction questions",
+                "displayName": "营建方面问题",
+                "display": true,
+                "type": "textarea"
+            },
+            {
+                "id": "1103",
+                "name": "shop questions",
+                "displayName": "门店方面问题",
+                "display": true,
+                "type": "textarea"
+            },
+            {
+                "id": "1104",
+                "name": "device questions",
+                "displayName": "设备方面问题",
+                "display": true,
+                "type": "textarea"
+            },
+            {
+                "id": "1105",
+                "name": "route questions",
+                "displayName": "线路方面问题",
+                "display": true,
+                "type": "textarea"
+            },
+            {
+                "id": "1106",
+                "name": "programmer questions",
+                "displayName": "工程师现场未完成/无法完成/等待时间超过2小时等事宜&建议 ",
+                "display": true,
+                "type": "textarea"
+            }
+        ]
+    },
+    {
+        "selectedValue":[
+            {
+                "id":"0101",
+                "list":[]
+            },
+            {
+                "id":"0102",
+                "list":[]
+            },
+            {
+                "id":"0105",
+                "list":[]
+            },
+            {
+                "id":"0404",
+                "list":[]
+            }
+        ],
+        "longDesc":[
+            {
+                "id":"090107",
+                "description":"机柜关门照 (关闭机柜门，锁好门，照片看到外部环境和线路走入情况"
+            },
+            {
+                "id":"090104",
+                "description":"机柜设备安装后开门照（要拍到每层设备放置位置及走线，请确保设备放置在对应的层）"
+            },
+            {
+                "id":"09030104",
+                "description":"票打整体照(每台票据打印机。拍走线情况、电源插座电源连接情况。尽量拍全景，由地面到柜面)"
+            },
+            {
+                "id":"09030201",
+                "description":"KDS正面照，要拍到显示屏幕的正确显示、键盘和键盘托架-配餐屏"
+            },
+            {
+                "id":"09030202",
+                "description":"KDS侧面照，要拍到走线情况和支架安装情况-配餐屏"
+            },
+            {
+                "id":"09030203",
+                "description":"KDS正面照，要拍到显示屏幕的正确显示、键盘和键盘托架-汉堡屏"
+            },
+            {
+                "id":"09030204",
+                "description":"KDS侧面照，要拍到走线情况和支架安装情况-汉堡屏"
+            },
+            {
+                "id":"09030205",
+                "description":"KDS正面照，要拍到显示屏幕的正确显示、键盘和键盘托架-饮料屏"
+            },
+            {
+                "id":"09030206",
+                "description":"KDS侧面照，要拍到走线情况和支架安装情况-饮料屏"
+            },
+            {
+                "id":"09030403",
+                "description":"厨房设备全景图（配电箱，NC主机、显示屏、小票打印机正面照片）"
+            },
+            {
+                "id":"09040101",
+                "description":"外送：外送POS整体照(由地面到外送台柜顶，拍到POS走线及票打走线及放置位置)"
+            },
+            {
+                "id":"09040201",
+                "description":"单台POS整体照（其中一台收银抽屉内拿掉钱箱两侧的杂物，拍到模块、电源（需有线插在上面）、线槽）"
+            },
+            {
+                "id":"09040202",
+                "description":"票打整体照(每台票据打印机。拍走线情况、电源插座电源连接情况。尽量拍全景，由地面到柜面)"
+            },
+            {
+                "id":"09040401",
+                "description":"单台POS整体照（其中一台收银抽屉内拿掉钱箱两侧的杂物，拍到模块、电源（需有线插在上面）、线槽）"
+            },
+            {
+                "id":"09040402",
+                "description":"票打整体照(每台票据打印机。拍走线情况、电源插座电源连接情况。尽量拍全景，由地面到柜面)"
+            },
+            {
+                "id":"090501",
+                "description":"DMB 瘦客户主机摆放要合理，理线规整清晰。（主机从右至左依次为1,2,3）"
+            },
+            {
+                "id":"090502",
+                "description":"DMB全部屏显播放正常的照片（从左至右依次为1,2,3,4,5,6）"
+            },
+            {
+                "id":"090503",
+                "description":"DMB标签（从左至右依次为1,2,3,4,5,6）"
+            },
+            {
+                "id":"090601",
+                "description":"CCTV监控画面（Web访问截图）"
+            },
+            {
+                "id":"0907",
+                "description":"其他（SDCD、TVBOX、UPS）"
+            },
+            {
+                "id":"090703",
+                "description":"UPS：UPS正面照 (要拍到UPS主机、电池柜及前面板状态灯显示)"
+            },
+            {
+                "id":"1001",
+                "description":"每台POS的Ready打印单，收银机与打印机工作正常（适用于客户/客户/ED）"
+            },
+            {
+                "id":"1002",
+                "description":" Compris数据清零后，打印Sales Report【前日总结=0】(适用于客户/客户/ED)"
+            },
+            {
+                "id":"1003",
+                "description":" 打印测试发票(适用于全品牌上发票打印系统的门店，不能使用正式发票)"
+            },
+            {
+                "id":"1004",
+                "description":"打印外送测试单(适用于客户开通外送的门店)"
+            },
+            {
+                "id":"1102",
+                "description":"营建方面问题(如电源不是国标，CCTV飞线，没有UPS标识，无插座、模块等)(请具体描述)"
+            },
+            {
+                "id":"1103",
+                "description":"门店方面问题(请具体描述)"
+            },
+            {
+                "id":"1104",
+                "description":"设备方面问题（如设备DOA，或变形不影响使用，或未到齐等）(请具体描述)"
+            },
+            {
+                "id":"1105",
+                "description":"线路方面问题(如ADSL未开通)(请具体描述)"
+            },
+            {
+                "id":"1106",
+                "description":"工程师现场未完成/无法完成/等待时间超过2小时等事宜&建议 (请具体描述)"
+            }
+        ]
     }
 ]
