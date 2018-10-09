@@ -376,7 +376,7 @@
         "displayName": "硬件资产收集",
         "display": true,
         "type": "text",
-        "value": [
+        "children": [
             {
                 "id": "0801",
                 "name": "hardware",
@@ -741,7 +741,7 @@
                         "displayName": "车道POS机",
                         "display": true,
                         "type": "text",
-                        "value": [
+                        "children": [
                             {
                                 "id": "09040401",
                                 "name": "single POS",
@@ -819,7 +819,7 @@
                 "displayName": "其他",
                 "display": true,
                 "type": "text",
-                "value": [
+                "children": [
                     {
                         "id": "090701",
                         "name": "SDCD",
