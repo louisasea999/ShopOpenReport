@@ -45,14 +45,14 @@
     },
     {
         "id": "02",
-        "name": "version NO",
+        "name": "versionNo",
         "displayName": "版本号",
         "display": true,
         "type": "text",
         "children": [
             {
                 "id": "0201",
-                "name": "version NO",
+                "name": "versionNo",
                 "displayName": "版本号",
                 "display": true,
                 "type": "text"
@@ -77,28 +77,28 @@
     },
     {
         "id": "04",
-        "name": "basic information",
+        "name": "basicInformation",
         "displayName": "新店基础信息表",
         "display": true,
         "type": "text",
         "children": [
             {
                 "id": "0401",
-                "name": "restaurant NO",
+                "name": "restaurantNO",
                 "displayName": "餐厅编号",
                 "display": true,
                 "type": "text"
             },
             {
                 "id": "0402",
-                "name": "restaurant name",
+                "name": "restaurantName",
                 "displayName": "餐厅名称",
                 "display": true,
                 "type": "text"
             },
             {
                 "id": "0403",
-                "name": "restaurant phone",
+                "name": "restaurantPhone",
                 "displayName": "餐厅电话",
                 "display": true,
                 "type": "text"
@@ -112,14 +112,14 @@
             },
             {
                 "id": "0405",
-                "name": "open date",
+                "name": "openDate",
                 "displayName": "开业日期",
                 "display": true,
                 "type": "date"
             },
             {
                 "id": "0406",
-                "name": "IT engineer",
+                "name": "ITEngineer",
                 "displayName": "IT调试工程师品牌",
                 "display": true,
                 "type": "text"
@@ -133,119 +133,119 @@
             },
             {
                 "id": "0408",
-                "name": "ticket number",
+                "name": "ticketNumber",
                 "displayName": "票打数量",
                 "display": true,
                 "type": "text"
             },
             {
                 "id": "0409",
-                "name": "camera number",
+                "name": "cameraNumber",
                 "displayName": "摄像头数量",
                 "display": true,
                 "type": "text"
             },
             {
                 "id": "0410",
-                "name": "broadband number",
+                "name": "broadbandNumber",
                 "displayName": "宽带线路数",
                 "display": true,
                 "type": "text"
             },
             {
                 "id": "0411",
-                "name": "KDS number",
+                "name": "KDSNumber",
                 "displayName": "KDS数量",
                 "display": true,
                 "type": "text"
             },
             {
                 "id": "0412",
-                "name": "AP NC",
+                "name": "APNC",
                 "displayName": "无线AP、移动NC",
                 "display": true,
                 "type": "text"
             },
             {
                 "id": "0413",
-                "name": "NC number",
+                "name": "NCNumber",
                 "displayName": "NC数量",
                 "display": true,
                 "type": "text"
             },
             {
                 "id": "0414",
-                "name": "DMB TV",
+                "name": "DMBTV",
                 "displayName": "DMB TV数",
                 "display": true,
                 "type": "text"
             },
             {
                 "id": "0415",
-                "name": "DMB NC",
+                "name": "DMBNC",
                 "displayName": "DMB NC",
                 "display": true,
                 "type": "text"
             },
             {
                 "id": "0416",
-                "name": "restaurant address",
+                "name": "restaurantAddress",
                 "displayName": "餐厅地址",
                 "display": true,
                 "type": "text"
             },
             {
                 "id": "0417",
-                "name": "broadband account",
+                "name": "broadbandAccount",
                 "displayName": "宽带账号(Mail)",
                 "display": true,
                 "type": "text"
             },
             {
                 "id": "0418",
-                "name": "broadband password",
+                "name": "broadbandPassword",
                 "displayName": "宽带密码(Mail)",
                 "display": true,
                 "type": "text"
             },
             {
                 "id": "0419",
-                "name": "wifi account",
+                "name": "wifiAccount",
                 "displayName": "宽带账号(Wi-Fi)",
                 "display": true,
                 "type": "text"
             },
             {
                 "id": "0420",
-                "name": "wifi password",
+                "name": "wifiPassword",
                 "displayName": "宽带密码(Wi-Fi)",
                 "display": true,
                 "type": "text"
             },
             {
                 "id": "0421",
-                "name": "DMB account",
+                "name": "DMBAccount",
                 "displayName": "宽带账号(DMB)",
                 "display": true,
                 "type": "text"
             },
             {
                 "id": "0422",
-                "name": "DMB password",
+                "name": "DMBPassword",
                 "displayName": "宽带密码(DMB)",
                 "display": true,
                 "type": "text"
             },
             {
                 "id": "0423",
-                "name": "delivery account",
+                "name": "deliveryAccount",
                 "displayName": "宽带账号(外送)",
                 "display": true,
                 "type": "text"
             },
             {
                 "id": "0424",
-                "name": "delivery password",
+                "name": "deliveryPassword",
                 "displayName": "宽带密码(外送)",
                 "display": true,
                 "type": "text"
@@ -254,7 +254,7 @@
     },
     {
         "id": "05",
-        "name": "effective install time",
+        "name": "effectiveInstallTime",
         "displayName": "有效安装时间统计表（小时）",
         "display": true,
         "type": "text",
@@ -268,7 +268,7 @@
             },
             {
                 "id": "0502",
-                "name": "total time",
+                "name": "totalTime",
                 "displayName": "总时间",
                 "display": true,
                 "type": "text"
@@ -289,7 +289,7 @@
             },
             {
                 "id": "0505",
-                "name": "POS printer",
+                "name": "POSPrinter",
                 "displayName": "POS打印机",
                 "display": true,
                 "type": "text"
@@ -333,21 +333,21 @@
     },
     {
         "id": "06",
-        "name": "accept bill",
+        "name": "acceptBill",
         "displayName": "验收单据（安装单据，Standby单据）",
         "display": true,
         "type": "text",
         "children": [
             {
                 "id": "0601",
-                "name": "install bill",
+                "name": "installBill",
                 "displayName": "安装单据",
                 "display": true,
                 "type": "file"
             },
             {
                 "id": "0602",
-                "name": "standby bill",
+                "name": "standbyBill",
                 "displayName": "Standby单据",
                 "display": true,
                 "type": "file"
@@ -402,7 +402,7 @@
                 "children": [
                     {
                         "id": "090101",
-                        "name": "before install",
+                        "name": "beforeInstall",
                         "displayName": "机柜安装前线路整理、捆扎照片",
                         "display": true,
                         "type": "text"
@@ -416,35 +416,35 @@
                     },
                     {
                         "id": "090103",
-                        "name": "before install",
+                        "name": "beforeInstall",
                         "displayName": "机柜安装前线路整理、捆扎照片",
                         "display": true,
                         "type": "file"
                     },
                     {
                         "id": "090104",
-                        "name": "open shop photo",
+                        "name": "openShopPhoto",
                         "displayName": "机柜设备安装后开门照",
                         "display": true,
                         "type": "file"
                     },
                     {
                         "id": "090105",
-                        "name": "firewall close up",
+                        "name": "firewallCloseUp",
                         "displayName": "交换机、防火墙、宽带猫特写",
                         "display": true,
                         "type": "file"
                     },
                     {
                         "id": "090106",
-                        "name": "CCTV close up",
+                        "name": "CCTVCloseUp",
                         "displayName": "CCTV主机特写照",
                         "display": true,
                         "type": "file"
                     },
                     {
                         "id": "090107",
-                        "name": "close shop photo",
+                        "name": "closeShopPhoto",
                         "displayName": "机柜关门照",
                         "display": true,
                         "type": "file"
@@ -453,42 +453,42 @@
             },
             {
                 "id": "0902",
-                "name": "manager offcie",
+                "name": "managerOffcie",
                 "displayName": "经理室",
                 "display": true,
                 "type": "text",
                 "children": [
                     {
                         "id": "090201",
-                        "name": "NC photo",
+                        "name": "NCPhoto",
                         "displayName": "NC侧面照",
                         "display": true,
                         "type": "file"
                     },
                     {
                         "id": "090202",
-                        "name": "behind printer",
+                        "name": "behindPrinter",
                         "displayName": "后台打印机",
                         "display": true,
                         "type": "file"
                     },
                     {
                         "id": "090203",
-                        "name": "wireless AP",
+                        "name": "wirelessAP",
                         "displayName": "无线AP",
                         "display": true,
                         "type": "file"
                     },
                     {
                         "id": "090204",
-                        "name": "mobile NC",
+                        "name": "mobileNC",
                         "displayName": "移动NC",
                         "display": true,
                         "type": "file"
                     },
                     {
                         "id": "090205",
-                        "name": "clock photo",
+                        "name": "clockPhoto",
                         "displayName": "卡钟整体照",
                         "display": true,
                         "type": "file"
@@ -497,7 +497,7 @@
             },
             {
                 "id": "0903",
-                "name": "cashier system",
+                "name": "cashierSystem",
                 "displayName": "收银系统",
                 "display": true,
                 "type": "text",
@@ -511,35 +511,35 @@
                         "children": [
                             {
                                 "id": "09030101",
-                                "name": "POS customer",
+                                "name": "POSCustomer",
                                 "displayName": "POS客区照",
                                 "display": true,
                                 "type": "file"
                             },
                             {
                                 "id": "09030102",
-                                "name": "POS employee",
+                                "name": "POSEmployee",
                                 "displayName": "POS员工区照",
                                 "display": true,
                                 "type": "file"
                             },
                             {
                                 "id": "09030103",
-                                "name": "single POS",
+                                "name": "singlePOS",
                                 "displayName": "单台POS整体照",
                                 "display": true,
                                 "type": "file"
                             },
                             {
                                 "id": "09030104",
-                                "name": "bill printer",
+                                "name": "billPrinter",
                                 "displayName": "票打整体照",
                                 "display": true,
                                 "type": "file"
                             },
                             {
                                 "id": "09030105",
-                                "name": "POS Drawer",
+                                "name": "POSDrawer",
                                 "displayName": "POS抽屉、线路、模块",
                                 "display": true,
                                 "type": "file"
@@ -548,49 +548,49 @@
                     },
                     {
                         "id": "090302",
-                        "name": "Point distribution separation",
+                        "name": "PointDistributionSeparation",
                         "displayName": "点配分离：厨房版本号（请选择模式）柜台",
                         "display": true,
                         "type": "text",
                         "children": [
                             {
                                 "id": "09030201",
-                                "name": "KDS positive food",
+                                "name": "KDSPositiveFood",
                                 "displayName": "KDS正面照-配餐屏",
                                 "display": true,
                                 "type": "file"
                             },
                             {
                                 "id": "09030202",
-                                "name": "KDS side food",
+                                "name": "KDSSideFood",
                                 "displayName": "KDS侧面照-配餐屏",
                                 "display": true,
                                 "type": "file"
                             },
                             {
                                 "id": "09030203",
-                                "name": "KDS positive hamburger",
+                                "name": "KDSPositiveHamburger",
                                 "displayName": "KDS正面照-汉堡屏",
                                 "display": true,
                                 "type": "file"
                             },
                             {
                                 "id": "09030204",
-                                "name": "KDS side hamburger",
+                                "name": "KDSSideHamburger",
                                 "displayName": "KDS侧面照-汉堡屏",
                                 "display": true,
                                 "type": "file"
                             },
                             {
                                 "id": "09030205",
-                                "name": "KDS positive drink",
+                                "name": "KDSPositiveDrink",
                                 "displayName": "KDS正面照-饮料屏",
                                 "display": true,
                                 "type": "file"
                             },
                             {
                                 "id": "09030206",
-                                "name": "KDS side drink",
+                                "name": "KDSSideDrink",
                                 "displayName": "KDS侧面照-饮料屏",
                                 "display": true,
                                 "type": "file"
@@ -599,14 +599,14 @@
                     },
                     {
                         "id": "090303",
-                        "name": "Dinning screen",
+                        "name": "DinningScreen",
                         "displayName": "取餐屏",
                         "display": true,
                         "type": "text",
                         "children": [
                             {
                                 "id": "09030301",
-                                "name": "Dinning screen",
+                                "name": "DinningScreen",
                                 "displayName": "取餐屏",
                                 "display": true,
                                 "type": "file"
@@ -615,35 +615,35 @@
                     },
                     {
                         "id": "090304",
-                        "name": "2GBOH kitchen",
+                        "name": "2GBOHKitchen",
                         "displayName": "2GBOH厨房标准图及参数描述",
                         "display": true,
                         "type": "text",
                         "children": [
                             {
                                 "id": "09030401",
-                                "name": "linux virtual matchine",
+                                "name": "linuxVirtualMatchine",
                                 "displayName": "2GBOH厨房标准图及参数描述",
                                 "display": true,
                                 "type": "file"
                             },
                             {
                                 "id": "09030402",
-                                "name": "virtual matchine configuration",
+                                "name": "virtualMatchineConfiguration",
                                 "displayName": "虚机网络配置截图",
                                 "display": true,
                                 "type": "file"
                             },
                             {
                                 "id": "09030403",
-                                "name": "kitchen panorama",
+                                "name": "kitchenPanorama",
                                 "displayName": "厨房设备全景图",
                                 "display": true,
                                 "type": "file"
                             },
                             {
                                 "id": "09030404",
-                                "name": "print principle",
+                                "name": "printPrinciple",
                                 "displayName": "总配：打印机定位原则",
                                 "display": true,
                                 "type": "file"
@@ -654,21 +654,21 @@
             },
             {
                 "id": "0904",
-                "name": "cashier system around",
+                "name": "cashierSystemAround",
                 "displayName": "周边收银系统",
                 "display": true,
                 "type": "text",
                 "chilren": [
                     {
                         "id": "090401",
-                        "name": "take out POS",
+                        "name": "takeOutPOS",
                         "displayName": "外送：外送POS整体照",
                         "display": true,
                         "type": "text",
                         "children": [
                             {
                                 "id": "09040101",
-                                "name": "take out POS",
+                                "name": "takeOutPOS",
                                 "displayName": "外送：外送POS整体照",
                                 "display": true,
                                 "type": "file"
@@ -684,21 +684,21 @@
                         "children": [
                             {
                                 "id": "09040201",
-                                "name": "single POS",
+                                "name": "singlePOS",
                                 "displayName": "单台POS整体照",
                                 "display": true,
                                 "type": "file"
                             },
                             {
                                 "id": "09040202",
-                                "name": "invoice printer",
+                                "name": "invoicePrinter",
                                 "displayName": "票打整体照",
                                 "display": true,
                                 "type": "file"
                             },
                             {
                                 "id": "09040203",
-                                "name": "POS Drawer",
+                                "name": "POSDrawer",
                                 "displayName": "POS抽屉、线路、模块",
                                 "display": true,
                                 "type": "file"
@@ -707,28 +707,28 @@
                     },
                     {
                         "id": "090403",
-                        "name": "take out good",
+                        "name": "takeOutGood",
                         "displayName": "外卖点",
                         "display": true,
                         "type": "text",
                         "children": [
                             {
                                 "id": "09040301",
-                                "name": "single POS",
+                                "name": "singlePOS",
                                 "displayName": "单台POS整体照",
                                 "display": true,
                                 "type": "file"
                             },
                             {
                                 "id": "09040302",
-                                "name": "invoice printer",
+                                "name": "invoicePrinter",
                                 "displayName": "票打整体照",
                                 "display": true,
                                 "type": "file"
                             },
                             {
                                 "id": "09040303",
-                                "name": "POS Drawer",
+                                "name": "POSDrawer",
                                 "displayName": "POS抽屉、线路、模块",
                                 "display": true,
                                 "type": "file"
@@ -737,28 +737,28 @@
                     },
                     {
                         "id": "090404",
-                        "name": "driveway POS",
+                        "name": "drivewayPOS",
                         "displayName": "车道POS机",
                         "display": true,
                         "type": "text",
                         "children": [
                             {
                                 "id": "09040401",
-                                "name": "single POS",
+                                "name": "singlePOS",
                                 "displayName": "单台POS整体照",
                                 "display": true,
                                 "type": "file"
                             },
                             {
                                 "id": "09040402",
-                                "name": "invoice printer",
+                                "name": "invoicePrinter",
                                 "displayName": "票打整体照",
                                 "display": true,
                                 "type": "file"
                             },
                             {
                                 "id": "09040403",
-                                "name": "POS Drawer",
+                                "name": "POSDrawer",
                                 "displayName": "POS抽屉、线路、模块",
                                 "display": true,
                                 "type": "file"
@@ -769,28 +769,28 @@
             },
             {
                 "id": "0905",
-                "name": "DMB electronic card",
+                "name": "DMBElectronicCard",
                 "displayName": "DMB电子餐牌设置",
                 "display": true,
                 "type": "text",
                 "children": [
                     {
                         "id": "090501",
-                        "name": "DMB customer matchine",
+                        "name": "DMBCustomerMatchine",
                         "displayName": "DMB 瘦客户主机摆放要合理，理线规整清晰",
                         "display": true,
                         "type": "file"
                     },
                     {
                         "id": "090502",
-                        "name": "DMB screens",
+                        "name": "DMBScreens",
                         "displayName": "DMB全部屏显播放正常的照片",
                         "display": true,
                         "type": "file"
                     },
                     {
                         "id": "090503",
-                        "name": "DMB tags",
+                        "name": "DMBTags",
                         "displayName": "DMB标签",
                         "display": true,
                         "type": "file"
@@ -799,14 +799,14 @@
             },
             {
                 "id": "0906",
-                "name": "CCTV monitor",
+                "name": "CCTVMonitor",
                 "displayName": "CCTV监控",
                 "display": true,
                 "type": "text",
                 "children": [
                     {
                         "id": "090601",
-                        "name": "CCTV monitor frame",
+                        "name": "CCTVMonitorFrame",
                         "displayName": "CCTV监控画面",
                         "display": true,
                         "type": "file"
@@ -836,7 +836,7 @@
                     },
                     {
                         "id": "090703",
-                        "name": "UPS Posiive",
+                        "name": "UPSPosiive",
                         "displayName": "UPS：UPS正面照",
                         "display": true,
                         "type": "file"
@@ -847,42 +847,42 @@
     },
     {
         "id": "10",
-        "name": "functional acceptance",
+        "name": "functionalAcceptance",
         "displayName": "新店功能性验收",
         "display": true,
         "type": "text",
         "children": [
             {
                 "id": "1001",
-                "name": "POS cashier printer",
+                "name": "POCcashierPrinter",
                 "displayName": "每台POS的Ready打印单，收银机与打印机工作正常",
                 "display": true,
                 "type": "file"
             },
             {
                 "id": "1002",
-                "name": "sales report",
+                "name": "salesReport",
                 "displayName": "Compris数据清零后，打印Sales Report",
                 "display": true,
                 "type": "file"
             },
             {
                 "id": "1003",
-                "name": "print test invoice",
+                "name": "printTestInvoice",
                 "displayName": "打印测试发票",
                 "display": true,
                 "type": "file"
             },
             {
                 "id": "1004",
-                "name": "print outgping test",
+                "name": "printOutgpingTest",
                 "displayName": "打印外送测试单",
                 "display": true,
                 "type": "file"
             },
             {
                 "id": "1005",
-                "name": "shop number address telephone",
+                "name": "shopNumberAddressTelephone",
                 "displayName": "餐条显示正确的门店编号、门店中文地址、门店电话",
                 "display": true,
                 "type": "file"
@@ -898,42 +898,42 @@
         "children": [
             {
                 "id": "1101",
-                "name": "shop number",
+                "name": "shopNumber",
                 "displayName": "门店代码",
                 "display": true,
                 "type": "file"
             },
             {
                 "id": "1102",
-                "name": "construction questions",
+                "name": "constructionQuestions",
                 "displayName": "营建方面问题",
                 "display": true,
                 "type": "textarea"
             },
             {
                 "id": "1103",
-                "name": "shop questions",
+                "name": "shopQuestions",
                 "displayName": "门店方面问题",
                 "display": true,
                 "type": "textarea"
             },
             {
                 "id": "1104",
-                "name": "device questions",
+                "name": "deviceQuestions",
                 "displayName": "设备方面问题",
                 "display": true,
                 "type": "textarea"
             },
             {
                 "id": "1105",
-                "name": "route questions",
+                "name": "routeQuestions",
                 "displayName": "线路方面问题",
                 "display": true,
                 "type": "textarea"
             },
             {
                 "id": "1106",
-                "name": "programmer questions",
+                "name": "programmerQuestions",
                 "displayName": "工程师现场未完成/无法完成/等待时间超过2小时等事宜&建议 ",
                 "display": true,
                 "type": "textarea"
