@@ -1,0 +1,1 @@
+This is for Python, initialize word report template, update report value;
