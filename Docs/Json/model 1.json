@@ -10,7 +10,7 @@
             "name": "customer",
             "displayName": "客户",
             "display": true,
-            "type": "select",
+            "type": "text",
             "docType":""
         },
         {
@@ -18,7 +18,7 @@
             "name": "market",
             "displayName": "市场",
             "display": true,
-            "type": "select",
+            "type": "text",
             "docType":""
         },
         {
@@ -42,7 +42,7 @@
             "name": "report",
             "displayName": "新店报告",
             "display": true,
-            "type": "select",
+            "type": "text",
             "docType":""
         }
     ]
@@ -1033,21 +1033,10 @@
     ]
 },
 {
-    "selectedValue": [{
-            "id": "0101",
-            "list": []
-        },
-        {
-            "id": "0102",
-            "list": []
-        },
-        {
-            "id": "0105",
-            "list": []
-        },
+    "selectedValue": [
         {
             "id": "0404",
-            "list": []
+            "list": ["KFC","PH","PHHS","甜品站","东方既白","小肥羊"]
         },
         {
             "id":"0801",

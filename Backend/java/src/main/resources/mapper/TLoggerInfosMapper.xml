@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dxc.openShopReport.dao.TLoggerInfosMapper">
+  <resultMap id="BaseResultMap" type="com.dxc.openShopReport.model.TLoggerInfos">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ali_id" jdbcType="INTEGER" property="aliId" />
+    <result column="ali_client_ip" jdbcType="VARCHAR" property="aliClientIp" />
+    <result column="ali_uri" jdbcType="VARCHAR" property="aliUri" />
+    <result column="ali_type" jdbcType="VARCHAR" property="aliType" />
+    <result column="ali_method" jdbcType="VARCHAR" property="aliMethod" />
+    <result column="ali_session_id" jdbcType="VARCHAR" property="aliSessionId" />
+    <result column="ali_time" jdbcType="TIMESTAMP" property="aliTime" />
+    <result column="ali_return_time" jdbcType="VARCHAR" property="aliReturnTime" />
+    <result column="ali_http_status_code" jdbcType="VARCHAR" property="aliHttpStatusCode" />
+    <result column="ali_time_consuming" jdbcType="INTEGER" property="aliTimeConsuming" />
+    <result column="ali_param_data" jdbcType="LONGVARCHAR" property="aliParamData" />
+    <result column="ali_return_data" jdbcType="LONGVARCHAR" property="aliReturnData" />
+  </resultMap>
+  <insert id="insertLogInfo" parameterType="com.dxc.openShopReport.dao.TLoggerInfosMapper">
+    insert into t_logger_infos(ali_client_ip,ali_uri,ali_type,ali_method,ali_session_id,ali_time,ali_return_time,ali_http_status_code,ali_time_consuming,ali_param_data,ali_return_data) values(#{aliClientIp},#{aliUri},#{aliType},#{aliMethod},#{aliSessionId},#{aliTime},#{aliReturnTime},#{aliHttpStatusCode},#{aliTimeConsuming},#{aliParamData},#{aliReturnData})
+  </insert>
+</mapper>

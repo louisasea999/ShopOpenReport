@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dxc.openShopReport.dao.HardwarecontentMapper">
+  <resultMap id="BaseResultMap" type="com.dxc.openShopReport.model.Hardwarecontent">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="shopCode" jdbcType="VARCHAR" property="shopcode" />
+    <result column="content" jdbcType="CHAR" property="content" />
+    <result column="updateTime" jdbcType="TIMESTAMP" property="updatetime" />
+  </resultMap>
+  <insert id="saveByShopCodeAndContent" parameterType="com.dxc.openShopReport.model.Hardwarecontent">
+    insert into hardwarecontent (shopCode, content)
+    values (#{shopcode,jdbcType=VARCHAR}, #{content,jdbcType=VARCHAR})
+  </insert>
+  <select id="getHardwareContentByShopcode" resultMap="BaseResultMap">
+    select shopcode,content from hardwarecontent where shopcode=#{shopcode,jdbcType=VARCHAR}
+  </select>
+  <update id="updateByShopCodeAndContent">
+    update hardwarecontent set content=#{content,jdbcType=VARCHAR} where shopcode=#{shopcode,jdbcType=VARCHAR}
+  </update>
+</mapper>
